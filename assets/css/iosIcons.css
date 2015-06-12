@@ -1,0 +1,857 @@
+@font-face {
+    font-family: 'ios-32-native';
+    src:url('../webfonts/iosIcons/ios-32-native.eot?-nw0drs');
+    src:url('../webfonts/iosIcons/ios-32-native.eot?#iefix-nw0drs') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-native.woff?-nw0drs') format('woff'),
+        url('../webfonts/iosIcons/ios-32-native.ttf?-nw0drs') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-native.svg?-nw0drs#ios-32-native') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ios-32-eating';
+    src:url('../webfonts/iosIcons/ios-32-eating.eot?b2fr1v');
+    src:url('../webfonts/iosIcons/ios-32-eating.eot?#iefixb2fr1v') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-eating.woff?b2fr1v') format('woff'),
+        url('../webfonts/iosIcons/ios-32-eating.ttf?b2fr1v') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-eating.svg?b2fr1v#ios-32-eating') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ios-32-sports';
+    src:url('../webfonts/iosIcons/ios-32-sports.eot?-uhy72');
+    src:url('../webfonts/iosIcons/ios-32-sports.eot?#iefix-uhy72') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-sports.woff?-uhy72') format('woff'),
+        url('../webfonts/iosIcons/ios-32-sports.ttf?-uhy72') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-sports.svg?-uhy72#ios-32-sports') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ios-32-arrows';
+    src:url('../webfonts/iosIcons/ios-32-arrows.eot?-uhy72');
+    src:url('../webfonts/iosIcons/ios-32-arrows.eot?#iefix-uhy72') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-arrows.woff?-uhy72') format('woff'),
+        url('../webfonts/iosIcons/ios-32-arrows.ttf?-uhy72') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-arrows.svg?-uhy72#ios-32-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ios-32-general';
+    src:url('../webfonts/iosIcons/ios-32-general.eot?-uhy72');
+    src:url('../webfonts/iosIcons/ios-32-general.eot?#iefix-uhy72') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-general.woff?-uhy72') format('woff'),
+        url('../webfonts/iosIcons/ios-32-general.ttf?-uhy72') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-general.svg?-uhy72#ios-32-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ios-32-layout';
+    src:url('../webfonts/iosIcons/ios-32-layout.eot?-uhy72');
+    src:url('../webfonts/iosIcons/ios-32-layout.eot?#iefix-uhy72') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-layout.woff?-uhy72') format('woff'),
+        url('../webfonts/iosIcons/ios-32-layout.ttf?-uhy72') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-layout.svg?-uhy72#ios-32-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ios-32-files';
+    src:url('../webfonts/iosIcons/ios-32-files.eot?-uhy72');
+    src:url('../webfonts/iosIcons/ios-32-files.eot?#iefix-uhy72') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-files.woff?-uhy72') format('woff'),
+        url('../webfonts/iosIcons/ios-32-files.ttf?-uhy72') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-files.svg?-uhy72#ios-32-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ios-32-users';
+    src:url('../webfonts/iosIcons/ios-32-users.eot?-uhy72');
+    src:url('../webfonts/iosIcons/ios-32-users.eot?#iefix-uhy72') format('embedded-opentype'),
+        url('../webfonts/iosIcons/ios-32-users.woff?-uhy72') format('woff'),
+        url('../webfonts/iosIcons/ios-32-users.ttf?-uhy72') format('truetype'),
+        url('../webfonts/iosIcons/ios-32-users.svg?-uhy72#ios-32-arrows') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon_"], [class*=" icon_"] {
+    font-family: 'ios-32-native';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 28px;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_airdrop:before {
+    content: "\e600";
+}
+
+.icon_alarms:before {
+    content: "\e601";
+}
+
+.icon_albums:before {
+    content: "\e602";
+}
+
+.icon_bookmarks:before {
+    content: "\e603";
+}
+
+.icon_browsers:before {
+    content: "\e604";
+}
+
+.icon_contacts:before {
+    content: "\e605";
+}
+
+.icon_download:before {
+    content: "\e606";
+}
+
+.icon_favorites:before {
+    content: "\e607";
+}
+
+.icon_films:before {
+    content: "\e608";
+}
+
+.icon_flags:before {
+    content: "\e609";
+}
+
+.icon_keypad:before {
+    content: "\e60a";
+}
+
+.icon_messages:before {
+    content: "\e60b";
+}
+
+.icon_more:before {
+    content: "\e60c";
+}
+
+.icon_near:before {
+    content: "\e60d";
+}
+
+.icon_new:before {
+    content: "\e60e";
+}
+
+.icon_next:before {
+    content: "\e60f";
+}
+
+.icon_photos:before {
+    content: "\e610";
+}
+
+.icon_playlists:before {
+    content: "\e611";
+}
+
+.icon_previous:before {
+    content: "\e612";
+}
+
+.icon_reading:before {
+    content: "\e613";
+}
+
+.icon_recents:before {
+    content: "\e614";
+}
+
+.icon_reply:before {
+    content: "\e615";
+}
+
+.icon_search:before {
+    content: "\e616";
+}
+
+.icon_stop_watch:before {
+    content: "\e617";
+}
+
+.icon_television:before {
+    content: "\e618";
+}
+
+.icon_timer:before {
+    content: "\e619";
+}
+
+.icon_top_charts:before {
+    content: "\e61a";
+}
+
+.icon_trash:before {
+    content: "\e61b";
+}
+
+.icon_upload:before {
+    content: "\e61c";
+}
+
+.icon_world_times:before {
+    content: "\e61d";
+}
+
+
+/* EATING */
+ .icon_knife_fork_plate, .icon_pint_glass {
+    font-family: 'ios-32-eating';
+}
+
+.icon_baby_knife_fork_spoon:before {
+    content: "\e600";
+}
+
+.icon_candy_cane:before {
+    content: "\e601";
+}
+
+.icon_cheeseburger:before {
+    content: "\e602";
+}
+
+.icon_chupa_chups:before {
+    content: "\e603";
+}
+
+.icon_coffee_cup:before {
+    content: "\e604";
+}
+
+.icon_hamburger:before {
+    content: "\e605";
+}
+
+.icon_ice_cream_flake:before {
+    content: "\e606";
+}
+
+.icon_ice_cream_sprinkles:before {
+    content: "\e607";
+}
+
+.icon_ice_lolly:before {
+    content: "\e608";
+}
+
+.icon_ice_lolly_square:before {
+    content: "\e609";
+}
+
+.icon_ice_lolly_stripey:before {
+    content: "\e60a";
+}
+
+.icon_knife_fork_plate:before {
+    content: "\e60b";
+}
+
+.icon_knife_fork_spoon:before {
+    content: "\e60c";
+}
+
+.icon_lollipop:before {
+    content: "\e60d";
+}
+
+.icon_orange_half:before {
+    content: "\e60e";
+}
+
+.icon_pint_glass:before {
+    content: "\e60f";
+}
+
+.icon_tea_cup:before {
+    content: "\e610";
+}
+
+.icon_wine_bottle_glass:before {
+    content: "\e611";
+}
+
+.icon_wine_glass:before {
+    content: "\e612";
+}
+
+.icon_wine_glass_angle:before {
+    content: "\e613";
+}
+
+/* Arrows */
+.icon_arrow_upload{
+    font-family: 'ios-32-arrows';
+}
+
+
+.icon_arrow_upload:before {
+    content: "\e611";
+}
+
+/* general */
+.icon_chat {
+    font-family: 'ios-32-general';
+}
+
+
+
+.icon_briefs:before {
+    content: "\e605";
+}
+
+.icon_extinguisher:before {
+    content: "\e60b";
+}
+
+.icon_gecko_print:before {
+    content: "\e60c";
+}
+
+.icon_halt:before {
+    content: "\e60f";
+}
+
+.icon_sack:before {
+    content: "\e62f";
+}
+
+.icon_satellite_dish:before {
+    content: "\e630";
+}
+
+.icon_tornado:before {
+    content: "\e634";
+}
+
+.icon_aim_target:before {
+    content: "\e600";
+}
+
+.icon_alarm:before {
+    content: "\e601";
+}
+
+.icon_alarm_off:before {
+    content: "\e602";
+}
+
+.icon_broken_heart:before {
+    content: "\e603";
+}
+
+.icon_bullet_list:before {
+    content: "\e604";
+}
+
+.icon_chat:before {
+    content: "\e606";
+}
+
+.icon_chat_ios:before {
+    content: "\e607";
+}
+
+.icon_chat_reply:before {
+    content: "\e608";
+}
+
+.icon_chats:before {
+    content: "\e609";
+}
+
+.icon_checkbox:before {
+    content: "\e60a";
+}
+
+.icon_cog:before {
+    content: "\e60d";
+}
+
+.icon_cogs:before {
+    content: "\e60e";
+}
+
+.icon_divider:before {
+    content: "\e610";
+}
+
+.icon_dress:before {
+    content: "\e611";
+}
+
+.icon_electronic_megaphone:before {
+    content: "\e612";
+}
+
+.icon_female_symbol:before {
+    content: "\e613";
+}
+
+.icon_filter:before {
+    content: "\e614";
+}
+
+.icon_flag_fanion:before {
+    content: "\e615";
+}
+
+.icon_flag_rectangle:before {
+    content: "\e616";
+}
+
+.icon_flag_swallowtail:before {
+    content: "\e617";
+}
+
+.icon_games_ios:before {
+    content: "\e618";
+}
+
+.icon_happy_face:before {
+    content: "\e619";
+}
+
+.icon_heart:before {
+    content: "\e61a";
+}
+
+.icon_heart_rate:before {
+    content: "\e61b";
+}
+
+.icon_heart_rate_2:before {
+    content: "\e61c";
+}
+
+.icon_infinity:before {
+    content: "\e61d";
+}
+
+.icon_information:before {
+    content: "\e61e";
+}
+
+.icon_jewel:before {
+    content: "\e61f";
+}
+
+.icon_jigsaw:before {
+    content: "\e620";
+}
+
+.icon_joystick:before {
+    content: "\e621";
+}
+
+.icon_lifebelt:before {
+    content: "\e622";
+}
+
+.icon_light:before {
+    content: "\e623";
+}
+
+.icon_light_bulb:before {
+    content: "\e624";
+}
+
+.icon_light_bulb_on:before {
+    content: "\e625";
+}
+
+.icon_lightening:before {
+    content: "\e626";
+}
+
+.icon_male_female_symbol:before {
+    content: "\e627";
+}
+
+.icon_male_female_symbol_2:before {
+    content: "\e628";
+}
+
+.icon_male_symbol:before {
+    content: "\e629";
+}
+
+.icon_medical_kit:before {
+    content: "\e62a";
+}
+
+.icon_megaphone:before {
+    content: "\e62b";
+}
+
+.icon_moon:before {
+    content: "\e62c";
+}
+
+.icon_mortar_board:before {
+    content: "\e62d";
+}
+
+.icon_origami:before {
+    content: "\e62e";
+}
+
+.icon_palette:before {
+    content: "\e631";
+}
+
+.icon_paperclip:before {
+    content: "\e632";
+}
+
+.icon_paperclip_2:before {
+    content: "\e633";
+}
+
+.icon_paw_print:before {
+    content: "\e635";
+}
+
+.icon_pencil:before {
+    content: "\e636";
+}
+
+.icon_picture_list:before {
+    content: "\e637";
+}
+
+.icon_picture_list_2:before {
+    content: "\e638";
+}
+
+.icon_pill:before {
+    content: "\e639";
+}
+
+.icon_pinwheel:before {
+    content: "\e63a";
+}
+
+.icon_rainbow:before {
+    content: "\e63b";
+}
+
+.icon_rocket:before {
+    content: "\e63c";
+}
+
+.icon_ruler:before {
+    content: "\e63d";
+}
+
+.icon_sad_face:before {
+    content: "\e63f";
+}
+
+.icon_snow:before {
+    content: "\e640";
+}
+
+.icon_speedometer:before {
+    content: "\e643";
+}
+
+.icon_steering_wheel:before {
+    content: "\e644";
+}
+
+.icon_stroller:before {
+    content: "\e645";
+}
+
+.icon_sun_cloud:before {
+    content: "\e646";
+}
+
+.icon_target:before {
+    content: "\e647";
+}
+
+.icon_umbrella:before {
+    content: "\e648";
+}
+
+.icon_warning:before {
+    content: "\e649";
+}
+
+
+/* SPORTS */
+
+ .icon_running, .icon_walking{
+    font-family: 'ios-32-sports';
+}
+
+.icon_pin_bowling:before {
+    content: "\e600";
+}
+
+.icon_archery:before {
+    content: "\e601";
+}
+
+.icon_archery_target:before {
+    content: "\e602";
+}
+
+.icon_baseball:before {
+    content: "\e603";
+}
+
+.icon_baseball_player:before {
+    content: "\e604";
+}
+
+.icon_basketball:before {
+    content: "\e605";
+}
+
+.icon_basketball_player:before {
+    content: "\e606";
+}
+
+.icon_bowling_ball:before {
+    content: "\e607";
+}
+
+.icon_cross_country_skiing:before {
+    content: "\e608";
+}
+
+.icon_cycling:before {
+    content: "\e609";
+}
+
+.icon_exercise:before {
+    content: "\e60a";
+}
+
+.icon_fencing:before {
+    content: "\e60b";
+}
+
+.icon_football:before {
+    content: "\e60c";
+}
+
+.icon_golf_putt:before {
+    content: "\e60d";
+}
+
+.icon_golf_swing:before {
+    content: "\e60e";
+}
+
+.icon_gymnastics:before {
+    content: "\e60f";
+}
+
+.icon_hockey:before {
+    content: "\e610";
+}
+
+.icon_hurdles:before {
+    content: "\e611";
+}
+
+.icon_ice_hockey:before {
+    content: "\e612";
+}
+
+.icon_ice_skating:before {
+    content: "\e613";
+}
+
+.icon_jogging:before {
+    content: "\e614";
+}
+
+.icon_karate:before {
+    content: "\e615";
+}
+
+.icon_kickboxing:before {
+    content: "\e616";
+}
+
+.icon_man:before {
+    content: "\e617";
+}
+
+.icon_pilates:before {
+    content: "\e618";
+}
+
+.icon_pool_ball:before {
+    content: "\e619";
+}
+
+.icon_roller_blading:before {
+    content: "\e61a";
+}
+
+.icon_rugby_ball:before {
+    content: "\e61b";
+}
+
+.icon_rugby_player:before {
+    content: "\e61c";
+}
+
+.icon_running:before {
+    content: "\e61d";
+}
+
+.icon_skate_boarding:before {
+    content: "\e61e";
+}
+
+.icon_skiing:before {
+    content: "\e61f";
+}
+
+.icon_skipping:before {
+    content: "\e620";
+}
+
+.icon_soccer_ball:before {
+    content: "\e621";
+}
+
+.icon_soccer_player:before {
+    content: "\e622";
+}
+
+.icon_sprint_cycling:before {
+    content: "\e623";
+}
+
+.icon_sprinting:before {
+    content: "\e624";
+}
+
+.icon_star_jumps:before {
+    content: "\e625";
+}
+
+.icon_stretching:before {
+    content: "\e626";
+}
+
+.icon_surfer:before {
+    content: "\e627";
+}
+
+.icon_swimming:before {
+    content: "\e628";
+}
+
+.icon_tennis:before {
+    content: "\e629";
+}
+
+.icon_tennis_ball:before {
+    content: "\e62a";
+}
+
+.icon_trophy:before {
+    content: "\e62b";
+}
+
+.icon_trophy_star:before {
+    content: "\e62c";
+}
+
+.icon_volleyball:before {
+    content: "\e62d";
+}
+
+.icon_walking:before {
+    content: "\e62e";
+}
+
+.icon_water_volleyball:before {
+    content: "\e62f";
+}
+
+.icon_weight_lifting:before {
+    content: "\e630";
+}
+
+.icon_winners_podium:before {
+    content: "\e631";
+}
+
+.icon_woman:before {
+    content: "\e632";
+}
+
+.icon_yoga:before {
+    content: "\e633";
+}
+
+
+/* Layout */
+
+ .icon_vert_align_bottom {
+    font-family: 'ios-32-layout';
+}
+
+.icon_vert_align_bottom:before {
+    content: "\e622";
+}
+
+
+/* Files */
+.icon_file_edit {
+    font-family: 'ios-32-files';
+}
+
+.icon_file_edit:before {
+    content: "\e60a";
+}
+
+/* Users */
+.icon_user {
+    font-family: 'ios-32-users';
+}
+
+
+
+.icon_user:before {
+    content: "\e600";
+}

@@ -1,3 +1,15 @@
+
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url("../webfonts/glyphicons/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../webfonts/glyphicons/glyphicons-halflings-regular.woff2") format("woff2"), url("../webfonts/glyphicons/glyphicons-halflings-regular.woff") format("woff"), url("../webfonts/glyphicons/glyphicons-halflings-regular.ttf") format("truetype"), url("../webfonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+
+@font-face{
+    font-family:Ratchicons;font-style:normal;font-weight:400;
+    src:url("../webfonts/ratcheticons/ratchicons.eot");
+    src:url("../webfonts/ratcheticons/ratchicons.eot?#iefix") format("embedded-opentype"),url("../webfonts/ratcheticons/ratchicons.woff") format("woff"),url("../webfonts/ratcheticons/ratchicons.ttf") format("truetype"),url("../webfonts/ratcheticons/ratchicons.svg#svgFontName") format("svg")}.icon{display:inline-block;font-family:Ratchicons;font-size:24px;line-height:1;text-decoration:none;-webkit-font-smoothing:antialiased}.icon-back:before{content:'\e80a'}.icon-bars:before{content:'\e80e'}.icon-caret:before{content:'\e80f'}.icon-check:before{content:'\e810'}.icon-close:before{content:'\e811'}.icon-code:before{content:'\e812'}.icon-compose:before{content:'\e813'}.icon-download:before{content:'\e815'}.icon-edit:before{content:'\e829'}.icon-forward:before{content:'\e82a'}.icon-gear:before{content:'\e821'}.icon-home:before{content:'\e82b'}.icon-info:before{content:'\e82c'}.icon-list:before{content:'\e823'}.icon-more-vertical:before{content:'\e82e'}.icon-more:before{content:'\e82f'}.icon-pages:before{content:'\e824'}.icon-pause:before{content:'\e830'}.icon-person:before{content:'\e832'}.icon-play:before{content:'\e816'}.icon-plus:before{content:'\e817'}.icon-refresh:before{content:'\e825'}.icon-search:before{content:'\e819'}.icon-share:before{content:'\e81a'}.icon-sound:before{content:'\e827'}.icon-sound2:before{content:'\e828'}.icon-sound3:before{content:'\e80b'}.icon-sound4:before{content:'\e80c'}.icon-star-filled:before{content:'\e81b'}.icon-star:before{content:'\e81c'}.icon-stop:before{content:'\e81d'}.icon-trash:before{content:'\e81e'}.icon-up-nav:before{content:'\e81f'}.icon-up:before{content:'\e80d'}.icon-right-nav:before{content:'\e818'}.icon-right:before{content:'\e826'}.icon-down-nav:before{content:'\e814'}.icon-down:before{content:'\e820'}.icon-left-nav:before{content:'\e82d'}.icon-left:before{content:'\e822'}
+
 .affix {
     top: 60px; /* Position where the element is fixed */
 }
@@ -33,6 +45,114 @@
     z-index: 100;
 }
 
-.iosTabbar .flex-container {
-    max-height: 55px;
+.navbar-brand{
+    max-width: 64%;
+    float: center;
+}
+
+.well {
+    background: seashell;
+}
+.badge {
+    background-color: red;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}    
+
+.flex-item {
+    -webkit-flex: 1 auto;
+    flex: 1 auto;
+}
+
+
+.flexbox{
+    display:flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.flex-1 {
+    flex: 1  0px;
+    -webkit-flex: 1  0px;
+}
+.flex-2 {
+    flex: 2  0px;
+    -webkit-flex: 2  0px;
+}
+.flex-3 {
+    flex: 3  0px;
+    -webkit-flex: 3  0px;
+}
+.flex-4 {
+    flex: 4  0px;
+    -webkit-flex: 4  0px;
+}
+.flex-5 {
+    flex: 5  0px;
+    -webkit-flex: 5  0px;
+}
+.flex-6 {
+    flex: 6  0px;
+    -webkit-flex: 6  0px;
+}
+.flex-7 {
+    flex: 7  0px;
+    -webkit-flex: 7  0px;
+}
+.flex-8 {
+    flex: 8  0px;
+    -webkit-flex: 8  0px;
+}
+.flex-9 {
+    flex: 9  0px;
+    -webkit-flex: 9  0px;
+}
+.flex-10 {
+    flex: 10  0px;
+    -webkit-flex: 10  0px;
+}
+.flex-11 {
+    flex: 11  0px;
+    -webkit-flex: 11  0px;
+}
+
+
+.blanklist .pull-right, .pulledRight{
+    color: #999;
+}
+
+.touchfriendly{
+    min-height: 44px;
+    /*line-height: 44px;*/
+    padding-top:9px;
+    vertical-align: middle;
+}
+
+#fotoScreen .fullpage{
+    background-image: url('../assets/img/foto.jpg');
+}
+
+#scannerBar.navbar-default {
+    background-color: #333;
+    border: none;
+    min-height:72px;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }

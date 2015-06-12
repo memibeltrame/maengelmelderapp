@@ -1,31 +1,21 @@
 users:
   addId: true
   1:
-    fullName: Sara Default
+    fullName: Max Rohr
     email: one@company.com
-    username: sara
-    role: user
+    username: max
+    role: unternehmen
   2:
-    fullName: Mara Admin
+    fullName: Paul Heftlimacher
     email: two@company.com
-    username: mara
-    role: admin
-  3:
-    fullName: Lara Superadmin
-    email: three@company.com
-    username: lara
-    role: superadmin
+    username: paul
+    role: planer
+
 
 roles:
-  superadmin:
-    name: Superadmin
+  unternehmen:
+    name: Unternehmen
     permissions: ['createData', 'editData', 'deleteData','addUser']
-  admin:
-    name: Admin
+  planer:
+    name: Planer
     permissions: ['createData', 'editData', 'deleteData']
-  user:
-    name: Default User
-    permissions: ['editData']
-  guest:
-    name: Guest User
-    permissions: [ ]

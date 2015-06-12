@@ -1,14 +1,8 @@
-<footer>
-    <hr>
-    <p>&copy; <?php echo  $brand;?> &nbsp;&nbsp; <span class="text-muted"><i class="fa fa-long-arrow-left"></i> This is data that can be changed in assets/data/data.yml</span></p>
-    <br>
-        <a href="?session_renew=true">Renew Prototype Session</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <?php foreach ($languages as $key => $language){ ?>
-            <a href="?switchLanguage=<?php echo $key ;?>"><?php echo $language ;?></a>&nbsp;&nbsp;
-        <?php } ?>
-    <br>
-    <a class="" data-toggle="collapse" data-target="#collapse<?php echo getUniqueId();?>">Deeplink</a>
-    <div id="collapse<?php echo $lastUniqueId;?>" class="collapse">
-        <input type="text" class="form-control selectOnClick" name="" placeholder="" value="<?php echo getDeeplink(); ;?>">
-    </div>
+<footer class="align-center">
+        <br><br><br><hr>
+        <a href="<?php echo basename($_SERVER['PHP_SELF']) ;?>?session_renew=true"><i class="fa fa-refresh"></i></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="index.php">H</a>
+        <a href="planer.php">Planer</a>
+        <a href="index.php">Unternehmen</a>
 </footer>
