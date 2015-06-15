@@ -35,43 +35,36 @@ $activeNavigation = "one";
             $backlink = "index.php";
             $backtitle = "Zurück";
             include(snippet("navBarSubpage"));?>
-            <br>                 
-                <div class="flexbox blanklist touchfriendly ">
-                    <hr>
-                    <div class="flex-10" ><a href="">Auffinden Lagerplätze</a></div>
-                    <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
-                </div>
-                <hr>
-                 <div class="flexbox blanklist touchfriendly ">
-                    <hr>
-                    <div class="flex-10" ><a href="">Einsatz Hebebühne </a></div>
-                    <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
-                </div>
-                <hr>
-                <div class="flexbox blanklist touchfriendly ">
-                    <hr>
-                    <div class="flex-10" ><a href="">Einsatz Stapler</a></div>
-                    <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
-                </div>
-                <hr>      
-                <div class="flexbox blanklist touchfriendly ">
-                    <hr>
-                    <div class="flex-10" ><a href="">Nutzung Lagerplätze</a></div>
-                    <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
-                </div>
-                <hr>
-                <div class="flexbox blanklist touchfriendly ">
-                    <div class="flex-10" ><a href="zuundwegfahrtswege.php">Nutzung Umschlagplätze</a></div>
-                    <div class="flex-1" ><a href="zuundwegfahrtswege.php"><i class="fa fa-angle-right"></i></a></div>
-                </div>
-                <hr>
-                <div class="flexbox blanklist touchfriendly ">
-                    <div class="flex-11" ><a href="zuganglkw.php">Zugang LKW</a></div>
-                    <div class="flex-1" ><a href="zuganglkw.php"><i class="fa fa-angle-right"></i></a></div>
-                </div>
-                <hr>
+            <br>  
+            <h4 class="align-center">Zu- und Wegfahrtswege</h4>
+            <br>
+                <div class="list">             
+                    <div class="flexbox blanklist touchfriendly ">
+                        <div class="flex-10" ><a href="">Auffinden Lagerplätze</a></div>
+                        <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
+                    </div>
+                     <div class="flexbox blanklist touchfriendly ">
+                        <div class="flex-10" ><a href="">Einsatz Hebebühne </a></div>
+                        <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
+                    </div>
+                    <div class="flexbox blanklist touchfriendly ">
+                        <div class="flex-10" ><a href="">Einsatz Stapler</a></div>
+                        <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
+                    </div>   
+                    <div class="flexbox blanklist touchfriendly ">
+                        <div class="flex-10" ><a href="">Nutzung Lagerplätze</a></div>
+                        <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
+                    </div>
+                    <div class="flexbox blanklist touchfriendly ">
+                        <div class="flex-10" ><a href="zuundwegfahrtswege.php">Nutzung Umschlagplätze</a></div>
+                        <div class="flex-1" ><a href="zuundwegfahrtswege.php"><i class="fa fa-angle-right"></i></a></div>
+                    </div>
+                    <div class="flexbox blanklist touchfriendly ">
+                        <div class="flex-11" ><a href="zuganglkw.php">Zugang LKW</a></div>
+                        <div class="flex-1" ><a href="zuganglkw.php"><i class="fa fa-angle-right"></i></a></div>
+                    </div>
 
-            </div>   
+                </div>   
 
             <?php // this includes the footer
             include(snippet("footer"));?>

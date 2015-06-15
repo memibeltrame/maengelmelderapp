@@ -26,26 +26,23 @@ $activeNavigation = "one";
 // uncomment the following function to force user to be logged in
 // forceLogin(); ?>
 
-    <body class="header-fixed ">
+    <body class="header-fixed">
         <div class="container">
-
+           
             <?php
             // this includes the header
             include(snippet("navBarTop"));?>
-            <br>
-            <h3 class="align-center">Hallo Herr Rohr,<br>was möchten Sie melden?</h3>
-            <br>
-            <h4>1. Baustelle wählen:</h4>
-            <select class="selectpicker" data-width="100%" name="Baustelle" data-live-search="true" style="display: none;">
-                <option value="javascript:void(0);">Meine Position</option>
-                <option value="javascript:void(0);">Uetlibergstrasse </option>
-                <option value="javascript:void(0);">Zentralstrasse </option>
-            </select>
-            <br>
-            <h4>2. Bereich wählen </h4>
-            <?php
-            // this includes the list
-            include(snippet("meldenlist"));?>
+
+
+
+            <div id="boxid" class="alert alert-info">
+<button class="close" type="button" data-dismiss="alert">×</button>
+<ul class="fa-ul">
+<li style="width:96%">
+<i class="fa fa-info-circle fa-lg fa-li"></i>
+Das Problem Zugang LKW wurde erfasst und ihrem Planer gemeldet.</li>
+</ul>
+</div>
 
             <?php // this includes the footer
             include(snippet("footer"));?>

@@ -34,46 +34,57 @@ $activeNavigation = "one";
             include(snippet("navBarTop"));?>
             <br>
             <div class="flexbox">
-                <div class="flex-11 align-center">    
-                    <h4>Offene Probleme <span class="badge">3</span> </h4>
-
+                <div class="flex-11">    
+                    <h3 class="align-center">Offene Probleme <span class="badge"> 3</span></h3>
                     <div class="micropadding"></div>
                 </div> 
                
             </div> 
                 <!-- Notifications-->
-            <div class="well" >   
+                <div class="container" style="background-color: seashell;">
+                <div class="list" >   
                     <div class="flexbox blanklist touchfriendly ">
-                        <hr>
                         <div class="flex-10" > 
-                            <a href="issuezuganglkw.php">Zugang LKW</a><br><small><i class="fa fa-user"></i> Max Rohr  &nbsp;<i class="fa fa-calendar"></i> 10.6.2015 17:38 Uhr</small>
+                            <a href="issuezuganglkw.php">Zugang LKW</a>
+                            <br>
+                            <small>10.6.15 17:38, Max Rohr,&nbsp;Baustelle Sihlquai 131</small>
                         </div>
-                        <div class="flex-1" ><a href="issuezuganglkw.php"><i class="fa fa-angle-right"></i></a></div>
+                        <div class="flex-1" >
+                            <a href="issuezuganglkw.php"><i class="fa fa-angle-right"></i></a>
+                        </div>
                     </div>
-                    <hr>
                     <div class="flexbox blanklist touchfriendly ">
-                        <hr>
                         <div class="flex-10" >
-                            <a href="javascript:void(0);">Einsatz Hebebühne</a><br><small><i class="fa fa-user"></i> Felix Huber  &nbsp;<i class="fa fa-calendar"></i> 12.6.2015 09:05 Uhr</small>
+                            <a href="javascript:void(0);">Einsatz Hebebühne</a>
+                            <br>
+                            <small>9.6.15 09:13, Fritz Kunz, Baustelle Langstrasse </small>
                         </div>
                         <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
                     </div>
-                    <hr>
                     <div class="flexbox blanklist touchfriendly ">
-                        <hr>
                         <div class="flex-10" >
-                            <a href="javascript:void(0);">Einsatz Stapler</a><br><small><i class="fa fa-user"></i> Felix Huber   &nbsp;<i class="fa fa-calendar"></i> 12.6.2015 09:13 Uhr</small>
+                            <a href="javascript:void(0);">Einsatz Stapler</a>
+                            <br>
+                            <small>9.6.15 09:14, Fritz Kunz,&nbsp;Baustelle Langstrasse </small>
                         </div>
                         <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
                     </div>
+                </div> 
+                </div>  
 
-            </div>  
         
-        <div class="micropadding"></div>
-         <div class="align-center">
-            <h4>Ein Problem melden</h4>
-        </div>   
-         <div class="container">
+            <br>
+            <div class="container" >
+                <h3 class="align-center">Ein Problem melden</h3>
+                <div class="micropadding"></div>
+                <h4>1. Baustelle wählen:</h4>
+                <select class="selectpicker" data-width="100%" name="Baustelle" data-live-search="true" style="display: none;">
+                    <option value="">Meine Position </option>
+                    <option value="">Uetlibergstrasse </option>
+                    <option value="">Zentralstrasse </option>
+                </select>
+                 <br>
+                <h4>2. Bereich wählen </h4>
 
             <?php
             // this includes the header

@@ -38,20 +38,22 @@ $activeNavigation = "one";
             <br>
             <div class="flexbox">
                 <div class="flex-11">
-                        <h1 class="align-center">Zugang LKW</h1>
+                        <div class="align-center">
+                            <h2>Zugang LKW</h2>
+                            <span>Baustelle: Sihlquai 131 <i class="fa fa-pencil"></i></span>
+                        </div>  
                     <div class="align-center">
                         <h4><span class="label label-default">Zugang nicht möglich</span><br></h4>
                         <div class="micropadding"></div>
+                        <i class="fa fa-calendar"></i><span> 10.6.2015 17:38 Uhr </span><br>
                         <i class="fa fa-user"></i><span> Max Rohr </span><br>
                         <i class="fa fa-phone"></i><a href="javascript:void(0);"> 077 767 33 28 </a>
-                        <div class="micropadding"></div>
-                        <i class="fa fa-calendar"></i><span> 10.6.2015 17:38 Uhr </span><br>
-                        
+                        <div class="micropadding"></div> 
                     </div>    
                         <br>
                         <img src="./assets/img/baustelle.jpg" style="width:100%; height:auto;" alt="Bild Baustelle">
                         <br><br>
-                        <a class="btn-block btn-lg btn-danger align-center"> Problem abschliessen</a>
+                        <a href="planer.php" class="btn-block btn-lg btn-danger align-center"> Problem abschliessen</a>
 
                 </div>
 

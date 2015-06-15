@@ -39,26 +39,33 @@ $activeNavigation = "one";
             <div class="flexbox">
                 <div class="flex-11">
                         <div class="align-center">
-                            <h2 class="align-center">Zugang LKW</h2>
+                            <h2>Zugang LKW</h2>
                             <span>Baustelle: Sihlquai 131 <i class="fa fa-pencil"></i></span>
                         </div>  
                         <br>  
+                        <div class="micropadding"></div>
+                        <h4>3. Bild hochladen</h4>
+                        <a href="foto.php"><span><i class="fa fa-camera"></i> Foto aufnehmen</span></a>
+                        <div class="micropadding"></div>
+                        <div class="micropadding"></div>
+                        <h4>4. Status auswählen</h4>
+                        <div class="btn-group" role="group" aria-label="...">
+                          <button type="button" class="btn btn-default"><i class="fa fa-times"></i>&nbsp;&nbsp;Nicht möglich</button>
+                          <button type="button" class="btn btn-default"><i class="fa fa-exclamation-triangle"></i> Unsicher oder umständlich</button>
+                        </div>
+                        <div class="micropadding"></div>
+                        <div class="micropadding"></div>
+                        <br>
+                        <div class="align-center"><a class="btn-block btn-lg btn-danger">Mangel melden </a></div>
+                        <br>
+                        <br>
                         <hr>
-                        <a href="foto.php"><span><i class="fa fa-camera"></i> Foto aufnehmen</span>
-                        </a>
-                        <hr>
-                        <a class="btn-block btn-lg btn-danger" > <i class="fa fa-times"></i>&nbsp;&nbsp;Zugang nicht möglich</a>
-                        <a class="btn-block btn-lg btn-warning" > <i class="fa fa-exclamation-triangle"></i> &nbsp;Zugang unsicher oder umständlich</a>
-                        <hr>
-                        <h4>Verantwortlichen kontaktieren</h4>
+                        <h5>Verantwortlichen kontaktieren</h5>
                         <i class="fa fa-user"></i><span> Fritz Müller </span>
                         <br>
                         <i class="fa fa-phone"></i><a href="javascript:void(0);">  077 767 33 28 </a>
                 </div>
-
             </div>       
-
-
         </div>   
 
             <?php // this includes the footer
