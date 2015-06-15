@@ -18,14 +18,9 @@ $activeNavigation = "home";
         // this includes all the markup that loads css files and similar stuff,
         // if you have to add more css, that's the place to do it.
         // DO NOT REMOVE
-        $nextIcon = "person";
-        $nextLink = "profil.php";
         include('./snippets/meta_headTag.php');?>
     </head>
-<?php
 
-// uncomment the following function to force user to be logged in
-forceLogin(); ?>
 <a href="zuganglkw.php"><img src="./assets/img/foto.jpg" style="width:100%; height:auto;"></a>
 
 

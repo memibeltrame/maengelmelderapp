@@ -43,8 +43,8 @@ $activeNavigation = "one";
                         <a href="foto.php"><span><i class="fa fa-camera"></i> Foto aufnehmen</span>
                         </a>
                         <hr>
-                        <a class="btn-block btn-lg btn-danger align-center" > Zugang nicht möglich</a>
-                        <a class="btn-block btn-lg btn-warning align-center" > Zugang unsicher oder umständlich</a>
+                        <a class="btn-block btn-lg btn-danger" > <i class="fa fa-times"></i></i> Zugang nicht möglich</a>
+                        <a class="btn-block btn-lg btn-warning" > <i class="fa fa-exclamation-triangle"></i> Zugang unsicher oder umständlich</a>
                         <hr>
                         <h4>Verantwortlichen kontaktieren</h4>
                         <i class="fa fa-user"></i><span> Fritz Müller </span>
