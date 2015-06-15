@@ -33,12 +33,8 @@ $activeNavigation = "one";
             // this includes the header
             include(snippet("navBarTop"));?>
             <br>
-            <div class="flexbox">
-                <div class="flex-11 align-center">    
-                    <h4>Hallo Herr Rohr,<br>was möchten Sie melden?</h4>
-                    <div class="micropadding"></div>
-                </div> 
-            
+            <h4 class="align-center">Hallo Herr Rohr,<br>was möchten Sie melden?</h4>
+
             <?php
             // this includes the list
             include(snippet("meldenlist"));?>

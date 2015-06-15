@@ -63,7 +63,7 @@
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-}    
+}
 
 .flex-item {
     -webkit-flex: 1 auto;
@@ -123,15 +123,24 @@
 }
 
 
-.blanklist .pull-right, .pulledRight{
-    color: #999;
-}
 
 .touchfriendly{
     min-height: 44px;
     /*line-height: 44px;*/
     padding-top:9px;
     vertical-align: middle;
+}
+
+.list .touchfriendly {
+    border-bottom: 1px solid #ccc;
+}
+
+.list .touchfriendly:first-child {
+    border-top: 1px solid #ccc;
+}
+
+.list  a.touchfriendly, .list  a:hover.touchfriendly , .list a:focus.touchfriendly  {
+    text-decoration: none;
 }
 
 #fotoScreen .fullpage{
