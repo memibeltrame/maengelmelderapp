@@ -35,7 +35,7 @@ $activeNavigation = "one";
             <br>
             <div class="flexbox">
                 <div class="flex-11">    
-                    <h3 class="align-center">Offene Probleme <span class="badge"> 3</span></h3>
+                    <h3 class="align-center">3 Offene Probleme </h3>
                     <div class="micropadding"></div>
                 </div> 
                
@@ -77,14 +77,14 @@ $activeNavigation = "one";
             <div class="container" >
                 <h3 class="align-center">Ein Problem melden</h3>
                 <div class="micropadding"></div>
-                <h4>1. Baustelle wählen:</h4>
+                <h4>Baustelle wählen:</h4>
                 <select class="selectpicker" data-width="100%" name="Baustelle" data-live-search="true" style="display: none;">
                     <option value="">Meine Position </option>
                     <option value="">Uetlibergstrasse </option>
                     <option value="">Zentralstrasse </option>
                 </select>
                  <br>
-                <h4>2. Bereich wählen </h4>
+                <h4>Bereich wählen </h4>
 
             <?php
             // this includes the header

@@ -36,7 +36,7 @@ $activeNavigation = "one";
             $backtitle = "Zurück";
             include(snippet("navBarSubpage"));?>
             <br>  
-            <h4 class="align-center">Zu- und Wegfahrtswege</h4>
+            <h4>Zu- und Wegfahrtswege</h4>
             <br>
                 <div class="list">             
                     <div class="flexbox blanklist touchfriendly ">

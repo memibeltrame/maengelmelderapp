@@ -39,27 +39,70 @@ $activeNavigation = "one";
             <div class="flexbox">
                 <div class="flex-11">
                         <div class="align-center">
-                            <h2 class="align-center">Zugang LKW</h2>
+                            <h2>Zugang LKW</h2>
                             <span>Baustelle: Sihlquai 131 <i class="fa fa-pencil"></i></span>
-                        </div>  
-                        <br>  
+                        </div>
+                        <br>
+                        <div class="micropadding"></div>
+
+                            <h4>Bild hochladen</h4>
+
+                            <?php if (isset($_GET ["thumbnailzeigen"])): ?>
+                                <img src="./assets/img/baustelle_thumbnail.jpg">
+                                <a href="foto.php"><span> Bild ersetzen</span></a>
+                            <?php else:?>
+                                <a href="foto.php"><span><i class="fa fa-camera"></i> Foto aufnehmen</span></a>
+                            <?php endif ?>
+                            <br>
+                           <br>
+                            <h4>Status auswählen</h4>
+                            <div class="btn-group flexbox " >
+
+                            <button type="button" data-id="dangerOn" class="toggleStatus btn-off flex-1 btn btn-default">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle fa-stack-2x text-danger"></i>
+                                  <i class="fa fa-times fa-stack-1x fa-inverse"></i>
+                                </span>
+                                &nbsp;&nbsp;Nicht möglich
+                            </button>
+                            <button type="button" id="dangerOn" class="toggleStatus hide btn-on flex-1 btn btn-danger">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle fa-stack-2x"></i>
+                                  <i class="fa fa-times fa-stack-1x  text-danger"></i>
+                                </span>
+                                &nbsp;&nbsp;Nicht möglich
+                            </button>
+
+                              <button type="button"  data-id="warningOn" class="toggleStatus btn-off flex-1 btn btn-default">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle fa-stack-2x text-warning"></i>
+                                  <i class="fa fa-exclamation-triangle fa-stack-1x fa-inverse"></i>
+                                </span>
+
+                                Erschwert
+                            </button>
+                              <button type="button"  id="warningOn" class="toggleStatus btn-on hide flex-1 btn btn-warning">
+                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-circle fa-stack-2x "></i>
+                                  <i class="fa fa-exclamation-triangle fa-stack-1x text-warning"></i>
+                                </span>
+
+                                Erschwert
+                            </button>
+                            </div>
+                        <div class="micropadding"></div>
+                        <br>
+                        <div class="align-center"><a href="index.php?meldunggesendet=fu" class="btn-block btn-lg btn-primary">Mangel melden </a></div>
+                        <br>
+                        <br>
                         <hr>
-                        <a href="foto.php"><span><i class="fa fa-camera"></i> Foto aufnehmen</span>
-                        </a>
-                        <hr>
-                        <a class="btn-block btn-lg btn-danger" > <i class="fa fa-times"></i>&nbsp;&nbsp;Zugang nicht möglich</a>
-                        <a class="btn-block btn-lg btn-warning" > <i class="fa fa-exclamation-triangle"></i> &nbsp;Zugang unsicher oder umständlich</a>
-                        <hr>
-                        <h4>Verantwortlichen kontaktieren</h4>
+                        <h5>Verantwortlichen kontaktieren</h5>
                         <i class="fa fa-user"></i><span> Fritz Müller </span>
                         <br>
                         <i class="fa fa-phone"></i><a href="javascript:void(0);">  077 767 33 28 </a>
                 </div>
-
-            </div>       
-
-
-        </div>   
+            </div>
+        </div>
 
             <?php // this includes the footer
             include(snippet("footer"));?>

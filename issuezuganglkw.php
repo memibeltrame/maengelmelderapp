@@ -43,7 +43,8 @@ $activeNavigation = "one";
                             <span>Baustelle: Sihlquai 131 <i class="fa fa-pencil"></i></span>
                         </div>  
                     <div class="align-center">
-                        <h4><span class="label label-default">Zugang nicht möglich</span><br></h4>
+                        <br>
+                        <span>Status: <i class="fa fa-times"></i> Zugang nicht möglich</span><br></span>
                         <div class="micropadding"></div>
                         <i class="fa fa-calendar"></i><span> 10.6.2015 17:38 Uhr </span><br>
                         <i class="fa fa-user"></i><span> Max Rohr </span><br>
@@ -53,7 +54,7 @@ $activeNavigation = "one";
                         <br>
                         <img src="./assets/img/baustelle.jpg" style="width:100%; height:auto;" alt="Bild Baustelle">
                         <br><br>
-                        <a href="planer.php" class="btn-block btn-lg btn-danger align-center"> Problem abschliessen</a>
+                        <a href="planer.php" class="btn-block btn-lg btn-primary align-center"> Problem abschliessen</a>
 
                 </div>
 

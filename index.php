@@ -33,16 +33,19 @@ $activeNavigation = "one";
             // this includes the header
             include(snippet("navBarTop"));?>
             <br>
+            <?php if (isset($_GET['meldunggesendet'])  ): ?>
+                 <?php box("Das Problem <b>Zugang LKW</b> wurde erfasst und ihrem Planer gemeldet.", "success", "inherit" , "boxid" , "dismiss" ); ?>
+            <?php endif ?>
             <h3 class="align-center">Hallo Herr Rohr,<br>was möchten Sie melden?</h3>
             <br>
-            <h4>1. Baustelle wählen:</h4>
+            <h4>Baustelle wählen:</h4>
             <select class="selectpicker" data-width="100%" name="Baustelle" data-live-search="true" style="display: none;">
-                <option value="javascript:void(0);">Meine Position</option>
+                <option value="javascript:void(0);">Sihlquai 131 (Aktueller Standort)</option>
                 <option value="javascript:void(0);">Uetlibergstrasse </option>
                 <option value="javascript:void(0);">Zentralstrasse </option>
             </select>
             <br>
-            <h4>2. Bereich wählen </h4>
+            <h4>Bereich wählen </h4>
             <?php
             // this includes the list
             include(snippet("meldenlist"));?>
