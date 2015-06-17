@@ -76,7 +76,7 @@ setlocale (LC_ALL, 'de_CH');
                             <i class="fa fa-phone"></i>
                             </div>
                             <div class="col-xs-9">
-                                077 767 33 28
+                                <a href="javascript:void(0);">077 767 33 28</a>
                             </div>
                         </div>
 
