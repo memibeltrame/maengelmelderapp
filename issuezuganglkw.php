@@ -10,6 +10,8 @@ include('core/protostrap.php');
 $activeNavigation = "one";
 
 
+date_default_timezone_set('Europe/Berlin');
+setlocale (LC_ALL, 'de_CH');
 ?><!DOCTYPE html>
 <html>
     <head>
