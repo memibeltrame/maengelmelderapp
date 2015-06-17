@@ -34,7 +34,7 @@ setlocale (LC_ALL, 'de_CH');
             <?php
             // this includes the header
             include(snippet("navBarTop"));?>
-            <br>
+
             <div class="flexbox">
                 <div class="flex-11">
                     <h3 class="align-center">3 Offene Probleme </h3>

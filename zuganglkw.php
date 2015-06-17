@@ -103,7 +103,7 @@ $activeNavigation = "one";
                             </div>
                         <div class="micropadding"></div>
                         <br>
-                        <div class="align-center"><a href="index.php?meldunggesendet=fu" class="btn-block btn-lg btn-primary">Mangel melden </a></div>
+                        <div class="align-center"><a href="index.php?meldunggesendet=fu" class="btn-block btn-lg btn-primary">Problem melden </a></div>
                         <br>
 
                         <hr>

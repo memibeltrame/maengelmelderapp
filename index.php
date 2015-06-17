@@ -34,7 +34,7 @@ $activeNavigation = "one";
             include(snippet("navBarTop"));?>
             <br>
             <?php if (isset($_GET['meldunggesendet'])  ): ?>
-                 <?php box("Das Problem <b>Zugang LKW</b> wurde erfasst und ihrem Planer gemeldet.", "success", "inherit" , "boxid" , "dismiss" ); ?>
+                 <?php box("Das Problem <b>Zugang LKW</b> wurde erfasst und ihrem Bauleiter gemeldet.", "success", "inherit" , "boxid" , "dismiss" ); ?>
             <?php endif ?>
             <h3 class="align-center">Hallo Herr Rohr,<br>was möchten Sie melden?</h3>
             <br>
