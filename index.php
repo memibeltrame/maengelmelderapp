@@ -39,11 +39,7 @@ $activeNavigation = "one";
             <h3 class="align-center">Hallo Herr Rohr,<br>was möchten Sie melden?</h3>
             <br>
             <h4>Baustelle wählen:</h4>
-            <select class="selectpicker" data-width="100%" name="Baustelle" data-live-search="true" style="display: none;">
-                <option value="javascript:void(0);">Sihlquai 131 (Aktueller Standort)</option>
-                <option value="javascript:void(0);">Uetlibergstrasse </option>
-                <option value="javascript:void(0);">Zentralstrasse </option>
-            </select>
+            <?php include("./snippets/baustellenwahl.php");?>
             <br>
             <h4>Bereich wählen </h4>
             <?php

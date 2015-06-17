@@ -35,22 +35,59 @@ $activeNavigation = "one";
             $backlink = "planer.php";
             $backtitle = "Zurück";
             include(snippet("navBarSubpage"));?>
-            <br>
+
             <div class="flexbox">
                 <div class="flex-11">
                         <div class="align-center">
                             <h2>Zugang LKW</h2>
-                            <span>Baustelle: Sihlquai 131 <i class="fa fa-pencil"></i></span>
-                        </div>  
-                    <div class="align-center">
+                            <span>Baustelle: Sihlquai 131 </span>
+                        </div>
+                    <div class="">
                         <br>
+
+                        <div class="row">
+                            <div class="col-xs-3 align-right" style="padding-right:0;">
+                                <i class="fa fa-times text-danger"></i>
+                            </div>
+                            <div class="col-xs-9">
+                                Zugang nicht möglich
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 align-right" style="padding-right:0;">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                            <div class="col-xs-9">
+                                <?php echo makeDateFromString("-1 day") ;?> 17:38 Uhr
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 align-right" style="padding-right:0;">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="col-xs-9">
+                                Max Rohr
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 align-right" style="padding-right:0;">
+                            <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="col-xs-9">
+                                077 767 33 28
+                            </div>
+                        </div>
+
+
+
+<!--
                         <span>Status: <i class="fa fa-times"></i> Zugang nicht möglich</span><br></span>
                         <div class="micropadding"></div>
-                        <i class="fa fa-calendar"></i><span> 10.6.2015 17:38 Uhr </span><br>
+                        <i class="fa fa-calendar"></i><span>  </span><br>
                         <i class="fa fa-user"></i><span> Max Rohr </span><br>
                         <i class="fa fa-phone"></i><a href="javascript:void(0);"> 077 767 33 28 </a>
-                        <div class="micropadding"></div> 
-                    </div>    
+                        <div class="micropadding"></div>  -->
+                    </div>
                         <br>
                         <img src="./assets/img/baustelle.jpg" style="width:100%; height:auto;" alt="Bild Baustelle">
                         <br><br>
@@ -58,10 +95,10 @@ $activeNavigation = "one";
 
                 </div>
 
-            </div>       
+            </div>
 
 
-        </div>   
+        </div>
 
             <?php // this includes the footer
             include(snippet("footer"));?>

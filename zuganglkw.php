@@ -35,12 +35,12 @@ $activeNavigation = "one";
             $backlink = "zuundwegfahrtswege.php";
             $backtitle = "Zurück";
             include(snippet("navBarSubpage"));?>
-            <br>
+
             <div class="flexbox">
                 <div class="flex-11">
                         <div class="align-center">
                             <h2>Zugang LKW</h2>
-                            <span>Baustelle: Sihlquai 131 <i class="fa fa-pencil"></i></span>
+                            <span>Baustelle: Sihlquai 131 </span>
                         </div>
                         <br>
                         <div class="micropadding"></div>
@@ -48,13 +48,24 @@ $activeNavigation = "one";
                             <h4>Bild hochladen</h4>
 
                             <?php if (isset($_GET ["thumbnailzeigen"])): ?>
-                                <img src="./assets/img/baustelle_thumbnail.jpg">
-                                <a href="foto.php"><span> Bild ersetzen</span></a>
+
+                                <div class="flexbox">
+                                    <div class="flex-1" >
+                                        <img  style="border: 1px solid #ccc" class="" src="./assets/img/baustelle_thumbnail.jpg">
+
+                                        </div>
+                                    <div class="flex-10" style="padding-left:10px">
+                                        <div class="micropadding"></div>
+                                        <a class="btn btn-default btn-block" href="foto.php"><i class="fa fa-camera"></i> Bild ersetzen</a>
+                                    </div>
+                                </div>
+
+
                             <?php else:?>
-                                <a href="foto.php"><span><i class="fa fa-camera"></i> Foto aufnehmen</span></a>
+                                <a href="foto.php" class="btn btn-default btn-block"><i class="fa fa-camera"></i> Foto aufnehmen</a>
                             <?php endif ?>
                             <br>
-                           <br>
+
                             <h4>Status auswählen</h4>
                             <div class="btn-group flexbox " >
 
@@ -94,7 +105,7 @@ $activeNavigation = "one";
                         <br>
                         <div class="align-center"><a href="index.php?meldunggesendet=fu" class="btn-block btn-lg btn-primary">Mangel melden </a></div>
                         <br>
-                        <br>
+
                         <hr>
                         <h5>Verantwortlichen kontaktieren</h5>
                         <i class="fa fa-user"></i><span> Fritz Müller </span>

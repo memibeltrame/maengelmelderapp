@@ -34,20 +34,20 @@ $activeNavigation = "one";
             include(snippet("navBarTop"));?>
             <br>
             <div class="flexbox">
-                <div class="flex-11">    
+                <div class="flex-11">
                     <h3 class="align-center">3 Offene Probleme </h3>
                     <div class="micropadding"></div>
-                </div> 
-               
-            </div> 
+                </div>
+
+            </div>
                 <!-- Notifications-->
                 <div class="container" style="background-color: seashell;">
-                <div class="list" >   
+                <div class="list" >
                     <div class="flexbox blanklist touchfriendly ">
-                        <div class="flex-10" > 
+                        <div class="flex-10" >
                             <a href="issuezuganglkw.php">Zugang LKW</a>
                             <br>
-                            <small>10.6.15 17:38, Max Rohr,&nbsp;Baustelle Sihlquai 131</small>
+                            <small><?php echo makeDateFromString("-1 day") ;?> 17:38, <br>Max Rohr,&nbsp;Baustelle Sihlquai 131</small>
                         </div>
                         <div class="flex-1" >
                             <a href="issuezuganglkw.php"><i class="fa fa-angle-right"></i></a>
@@ -57,7 +57,7 @@ $activeNavigation = "one";
                         <div class="flex-10" >
                             <a href="javascript:void(0);">Einsatz Hebebühne</a>
                             <br>
-                            <small>9.6.15 09:13, Fritz Kunz, Baustelle Langstrasse </small>
+                            <small><?php echo makeDateFromString("-3 day");?> 09:13, <br>Fritz Kunz, Baustelle Langstrasse </small>
                         </div>
                         <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
                     </div>
@@ -65,24 +65,21 @@ $activeNavigation = "one";
                         <div class="flex-10" >
                             <a href="javascript:void(0);">Einsatz Stapler</a>
                             <br>
-                            <small>9.6.15 09:14, Fritz Kunz,&nbsp;Baustelle Langstrasse </small>
+                            <small><?php echo makeDateFromString("-5 day");?> 15:22, <br>Fritz Kunz,&nbsp;Baustelle Langstrasse </small>
                         </div>
                         <div class="flex-1" ><a href=""><i class="fa fa-angle-right"></i></a></div>
                     </div>
-                </div> 
-                </div>  
+                </div>
+                </div>
 
-        
+
             <br>
             <div class="container" >
                 <h3 class="align-center">Ein Problem melden</h3>
                 <div class="micropadding"></div>
                 <h4>Baustelle wählen:</h4>
-                <select class="selectpicker" data-width="100%" name="Baustelle" data-live-search="true" style="display: none;">
-                    <option value="">Meine Position </option>
-                    <option value="">Uetlibergstrasse </option>
-                    <option value="">Zentralstrasse </option>
-                </select>
+                <?php include("./snippets/baustellenwahl.php");?>
+
                  <br>
                 <h4>Bereich wählen </h4>
 
@@ -92,7 +89,7 @@ $activeNavigation = "one";
 
             <?php // this includes the footer
             include(snippet("footer"));?>
-        </div> 
+        </div>
     </div><!-- /container -->
 
         <?php
